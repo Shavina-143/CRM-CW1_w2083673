@@ -1,0 +1,11 @@
+{
+  "constituents_source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+  "constituents_retrieved_utc": "2026-11-24T08:16:12.699714+00:00",
+  "market_source": "Yahoo Finance via yfinance",
+  "yfinance_version": "0.2.66",
+  "auto_adjust": false,
+  "actions": true,
+  "start_inclusive": "2021-01-01",
+  "end_exclusive": "2025-01-01",
+  "market_downloaded_utc": "2026-11-24T08:18:03.412503+00:00"
+}
