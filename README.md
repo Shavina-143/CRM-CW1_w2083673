@@ -1,6 +1,6 @@
 # S&P 500 Stock Segmentation (RFM + Risk/Return)
 
-**Student:** Haritha Shavina Thillainathan (20836733)
+**Student:** Haritha Shavina Thillainathan (w2083673)
 **Module:** 6BUIS017W – CRM and CM with Business Intelligence
 **Final notebook:** `CWK1_SP500_Analysis.ipynb`
 
