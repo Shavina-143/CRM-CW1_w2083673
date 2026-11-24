@@ -2,7 +2,7 @@
 
 **Student:** Haritha Shavina Thillainathan (20836733)  
 **Module:** 6BUIS017W – CRM and CM with Business Intelligence  
-**Final notebook:** `CWK1_SP500_Analysis_Final.ipynb`
+**Final notebook:** `CWK1_SP500_Analysis.ipynb`
 
 ## Study details
 - Period: 1 Jan 2021 – 31 Dec 2024 (end exclusive)
