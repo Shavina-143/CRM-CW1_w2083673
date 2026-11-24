@@ -1,0 +1,65 @@
+{
+  "calculation_version": "sp500-rfm-1.1",
+  "run_utc": "2026-11-24T10:21:52.717909+00:00",
+  "source": {
+    "data_mode": "saved snapshot",
+    "constituents_source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "constituents_retrieved_utc": "2026-11-24T08:16:12.699714+00:00",
+    "market_source": "Yahoo Finance via yfinance",
+    "yfinance_version": "0.2.66",
+    "auto_adjust": false,
+    "actions": true,
+    "start_inclusive": "2021-01-01",
+    "end_exclusive": "2025-01-01",
+    "market_downloaded_utc": "2026-11-24T08:18:03.412503+00:00"
+  },
+  "source_file_sha256": {
+    "sp500_tickers.csv": "49f0506ec4278916ce91ce294048445385258d32fa6e5ae4327cc2ea725aa677",
+    "market_data_raw_2021_2024.csv.gz": "79b5c392e69ffbc5fbbaee3d6be3041c19bad819b4df8a60039bb676e068f1bd"
+  },
+  "versions": {
+    "python": "3.13.18",
+    "pandas": "2.2.3",
+    "numpy": "2.4.6",
+    "scipy": "1.16.3",
+    "scikit-learn": "1.6.1",
+    "matplotlib": "3.10.0",
+    "seaborn": "0.13.2",
+    "yfinance": "0.2.66"
+  },
+  "study_start": "2021-01-01",
+  "study_end_exclusive": "2025-01-01",
+  "observation_date": "2024-12-31",
+  "first_rfm_session": "2024-10-07",
+  "RFM_sessions": 60,
+  "baseline_sessions": 20,
+  "volume_threshold_multiplier": 2,
+  "aligned_weeks": 207,
+  "common_shares": 486,
+  "ward": "Euclidean Ward; cut_tree",
+  "kmeans_seed": 42,
+  "kmeans_n_init": 20,
+  "k_candidates": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "group_selection": "highest silhouette; smaller k on an exact tie",
+  "preparation": "separate standard scalers; log1p Monetary; uncapped R and F",
+  "selected_k": {
+    "Ward_risk": 2,
+    "Ward_RFM": 2,
+    "KMeans_risk": 2,
+    "KMeans_RFM": 2
+  },
+  "method_ARI": {
+    "Risk and return": 0.59755503175211,
+    "RFM": 0.6998191613914165
+  },
+  "Ward_risk_vs_RFM_ARI": 0.028532063133793743,
+  "Ward_RFM_vs_RF_ARI": 0.8734706265744828
+}
